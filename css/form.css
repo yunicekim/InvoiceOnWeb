@@ -1,0 +1,94 @@
+body{
+    background-color: white;
+    font-family: 'Kalam', cursive;
+    font-size: 20px;
+}
+#errors{
+    color: black;
+    font-family: 'Kalam', cursive;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+
+}
+h1{
+    text-align:center;
+    text-decoration: underline;
+    margin-bottom: 0;
+}
+#mandatory{
+    color:red;
+}
+.rightAlign{
+    text-align: right;
+    width: 220px;
+    display: inline-block;
+}
+.colon{
+    width: 70px;
+    display: inline-block;
+}
+.alignTop{
+    vertical-align: top;
+}
+.colonAlignTop{
+    width: 70px;
+    display: inline-block;
+    vertical-align: top;
+}
+form{
+    width: 500px;
+    box-shadow: 0 0 10px #2c2c2c;
+    padding: 30px;
+    margin: 10px auto;
+    color: black;
+    background-color: lightgreen;
+    border-radius: 20px;
+}
+.formData{
+    width: 500px;
+    box-shadow: 0 0 10px #2c2c2c;
+    padding: 30px;
+    margin: 10px auto;
+    color: black;
+    background-color: lightgreen;
+    border-radius: 20px;
+}
+label{
+    width: 200px;
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+}
+input:not([type="radio"]), select{
+    font-size: 16px;
+    font-family: 'Kalam', cursive;
+    padding: 5px 10px;
+}
+input:not([type="radio"]){
+    width: 170px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+select{
+    width: 190px;
+    margin-top: 10px;
+}
+input[type="submit"]{
+    width: 100%;
+    font-size: 22px;
+    background-color: green;
+    color: white;
+    font-family: 'Kalam', cursive;
+    border: 0px;
+    padding: 10px;
+    height: 50px;
+    box-shadow: 4px 4px 0px darkgreen;
+    border-radius: 8px;
+}
+input[type="submit"]:active{
+    box-shadow: -4px -4px 0px green;
+}
